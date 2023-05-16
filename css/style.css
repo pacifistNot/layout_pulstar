@@ -682,11 +682,11 @@ body {
     background-color: #3F3B3D;
 }
 
-.footer-block {
+.footer-content {
     padding: 96px 0 32px 0;
 }
 
-.footer-block__title {
+.footer__title {
     margin: 0;
     margin-bottom: 32px;
     font-style: normal;
@@ -696,41 +696,41 @@ body {
     color: #FFFFFF;
 }
 
-.footer-block__list {
+.footer__list {
     margin-bottom: 64px;
 }
 
-.footer-block__list-item {
+.footer__item {
     width: calc((100% - (32px)) / 4);
     min-height: 296px;
 }
 
-.footer-block__list-item:not(:last-child) {
+.footer__item:not(:last-child) {
     margin-right: 32px;
 }
 
-.footer-block__list-item_img-block1 {
+.footer__item-img1 {
     background-image: url("../img/footer-card1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.footer-block__list-item_img-block2 {
+.footer__item-img2 {
     background-image: url("../img/footer-card2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.footer-block__list-item_img-block3 {
+.footer__item-img3 {
     background-image: url("../img/footer-card3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.footer-block__list-item_img-block4 {
+.footer__item-img4 {
     background-image: url("../img/footer-card4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
