@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Pulsar</title>
 </head>
-
 <body>
     <header class="header">
         <div class="container">
-            <div class="header-content flex">
+            <div class="header-content">
                 <a class="header__logo" href="./index.html">
                     <img src="./img/logo.svg" alt="Pulsar">
                 </a>
-                <div class="header__right flex">
+                <div class="header__col-nav">
                     <nav class="header__nav">
-                        <ul class="header__nav-list list-reset flex">
+                        <ul class="header__nav-list">
                             <li class="header__nav-item"><a class="header__nav-link" href="#">Home</a></li>
                             <li class="header__nav-item"><a class="header__nav-link" href="#">About</a></li>
                             <li class="header__nav-item"><a class="header__nav-link" href="#">Journal</a></li>
@@ -28,18 +26,11 @@
                         </ul>
                     </nav>
                     <button class="header__buy-btn btn-reset">Buy Template</button>
-                    <a class="header__bag-btn" href="#">
-                        <svg class="header__bag-img" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_1_13)">
-                            <path d="M2.60593 2H0V0H4.39407L4.84288 4H16V9.93845L3.76941 12.3694L2.60593 2ZM15.5 17C14.6716 17 14 16.3284 14 15.5C14 14.6716 14.6716 14 15.5 14C16.3284 14 17 14.6716 17 15.5C17 16.3284 16.3284 17 15.5 17ZM5.5 17C4.67157 17 4 16.3284 4 15.5C4 14.6716 4.67157 14 5.5 14C6.32843 14 7 14.6716 7 15.5C7 16.3284 6.32843 17 5.5 17Z" fill="black"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_1_13">
-                            <rect width="17" height="17" fill="white"/>
-                            </clipPath>
-                            </defs>
+                    <a class="header__basket-btn" href="#">
+                        <svg class="header__basket-img" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_13)"><path d="M2.60593 2H0V0H4.39407L4.84288 4H16V9.93845L3.76941 12.3694L2.60593 2ZM15.5 17C14.6716 17 14 16.3284 14 15.5C14 14.6716 14.6716 14 15.5 14C16.3284 14 17 14.6716 17 15.5C17 16.3284 16.3284 17 15.5 17ZM5.5 17C4.67157 17 4 16.3284 4 15.5C4 14.6716 4.67157 14 5.5 14C6.32843 14 7 14.6716 7 15.5C7 16.3284 6.32843 17 5.5 17Z" fill="black"/></g><defs><clipPath id="clip0_1_13"><rect width="17" height="17" fill="white"/></clipPath></defs>
                         </svg>
-                        <div class="header__bag-number">
+                        <div class="header__basket-number">
                             <span>0</span>
                         </div>
                     </a>
@@ -47,18 +38,14 @@
             </div>
         </div>
     </header>
-
     <main class="main">
         <section class="hero">
             <div class="container">
-                <div class="hero-content flex">
-                    <!--  -->
-                    <div class="hero__">
+                <div class="hero-content">
+                    <div class="hero__col-descr">
                         <h1 class="hero__title">Shop hundreds of enamel pins from artists.</h1>
-                        <div class="hero__btn-block">
-                            <button class="hero__btn btn-reset">Shop everything</button>
-                            <a class="hero__link" href="#">Browse collections</a>
-                        </div>
+                        <button class="hero__btn btn-reset">Shop everything</button>
+                        <a class="hero__link" href="#">Browse collections</a>
                     </div>
                     <div class="hero__slider">
                     </div>
@@ -70,7 +57,7 @@
                 <div class="about-content">
                     <p class="about__title">Ready, Set, Go</p>
                     <p class="about__descr">Shop hundreds of enamel pins from artists. The best cool pin badges to decorate your backpack, denim jean jacket, lapel, and festival hat for sale in our online store.</p>
-                    <ul class="about__list list-reset flex">
+                    <ul class="about__list">
                         <li class="about__item about__item_img1">
                             <h5 class="about__item-title">Free Artwork</h5>
                             <p class="about__item-descr">Free digital proofs and best design advice</p>
@@ -90,27 +77,27 @@
         <section class="shop">
             <div class="container">
                 <div class="shop-content">
-                    <ul class="shop__list list-reset flex">
+                    <ul class="shop__list">
                         <li class="shop__item shop__item-img1">
-                            <div class="shop__item-descr flex">
+                            <div class="shop__item-descr">
                                 <a class="shop__item-link" href="#"><p class="shop__item-title">HARD BOILED EGG AND AVOCADO</p></a>
                                 <p class="shop__item-price">$ 7.99 USD $ 5.00 USD</p>
                             </div>
                         </li>
                         <li class="shop__item shop__item-img2">
-                            <div class="shop__item-descr flex">
+                            <div class="shop__item-descr">
                                 <a class="shop__item-link" href="#"><p class="shop__item-title">BOMB! ENAMEL PIN</p></a>
-                                <p class="shop-block__list-item-block-price">$ 7.12 USD</p>
+                                <p class="shop__item-price">$ 7.12 USD</p>
                             </div>
                         </li>
                         <li class="shop__item shop__item-img3">
-                            <div class="shop__item-descr flex">
+                            <div class="shop__item-descr">
                                 <a class="shop__item-link" href="#"><p class="shop__item-title">PINEAPPLE CHARM PENDANT</p></a>
-                                <p class="shop-block__list-item-block-price">$ 9.99 USD</p>
+                                <p class="shop__item-price">$ 9.99 USD</p>
                             </div>
                         </li>
                     </ul>
-                    <ul class="shop__aside-list list-reset flex">
+                    <ul class="shop__aside-list">
                         <li class="shop__aside-item shop__aside-item-img1">
                             <a class="shop__aside-link" href="#"><h3 class="shop__aside-title">Shop all</h3></a>
                             <p class="shop__aside-descr">Explore everything</p>
@@ -127,14 +114,14 @@
             <div class="container">
                 <div class="story-content">
                     <h2 class="story__title">GET THE REST OF THE STORY</h2>
-                    <div class="story__card flex">
+                    <div class="story__card">
                         <div class="story__img"></div>
                         <div class="story__slogan">
                             <p class="story__slogan-title">“Best templates and support out there! They are always happy to help with any issues you may be having or even just showing how to edit things.”</p>
                             <p class="story__slogan-author">Sam (Trustpilot)</p>
                         </div>
                     </div>
-                    <ul class="story__list list-reset flex">
+                    <ul class="story__list">
                         <li class="story__item story__item-img1">
                             <p class="story__item-descr">
                                 “Great communication and help from him. Thank you.”
@@ -161,20 +148,19 @@
         </section>
         <section class="journal">
             <div class="container">
-                <div class="journal-content flex">
-                    <div class="journal__card flex">
-                        <div class="journal__card-content flex">
+                <div class="journal-content">
+                    <div class="journal__card">
+                        <div class="journal__card-content">
                             <span class="journal__card-date">FEBRUARY 26, 2022</span>
                             <h4 class="journal__card-title">14 Common Misconceptions About Web Design</h4>
                             <p class="journal__card-descr">Laboriosam et a quis. Ut quae rem consequatur omnis autem incidunt vitae. Recusandae voluptatem</p>
                             <a class="journal__card-link" href="#">Read more</a>
                         </div>
                     </div>
-                    <!--  -->
-                    <div class="journal__right-block">
+                    <div class="journal__col-article">
                         <h2 class="journal__title">JOURNAL</h2>
                         <a class="journal__link" href="#">Read the latest</a>
-                        <ul class="journal__list list-reset">
+                        <ul class="journal__list">
                             <li class="journal__item journal__item-img1">
                                 <span class="journal__item-date">FEBRUARY 26, 2022</span>
                                 <a class="journal__item-link" href="#"><h5 class="journal__item-title">What Will Website Be Like In 100 Years?</h5></a>
@@ -196,57 +182,50 @@
             </div>
         </section>
     </main>
-
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <h2 class="footer__title">CELEBRATING THE<br> PERFECTLY IMPERFECT</h2>
-                <ul class="footer__list list-reset flex">
+                <ul class="footer__list">
                     <li class="footer__item footer__item-img1"></li>
                     <li class="footer__item footer__item-img2"></li>
                     <li class="footer__item footer__item-img3"></li>
                     <li class="footer__item footer__item-img4"></li>
                 </ul>
-                <div class="footer-block__middle-block flex">
-                    <div class="footer-block__subscribe-block">
-                        <h4 class="footer-block__subscrire-title">Subscribe for stories and new product announcements.</h4>
-                        <div class="footer-block__subscribe-line"></div>
+                <div class="footer__row-nav">
+                    <div class="footer__subscribe">
+                        <h4 class="footer__subscrire-title">Subscribe for stories and new product announcements.</h4>
+                        <div class="footer__subscribe-line"></div>
                     </div>
-                    <div class="footer-block__nav-block flex">
-                        <div class="footer-block__nav-list-block">
-                            <h5 class="footer-block__nav-title"><a class="footer-block__nav-link" href="#">Shop</a></h5>
-                            <ul class="footer-block__nav-list list-reset">
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">All products</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Fruit</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Custom</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Cute</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-block__nav-list-block">
-                            <h5 class="footer-block__nav-title"><a class="footer-block__nav-link" href="#">Learn</a></h5>
-                            <ul class="footer-block__nav-list list-reset">
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Home</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Shop</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">About us</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Journal</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-block__nav-list-block">
-                            <h5 class="footer-block__nav-title"><a class="footer-block__nav-link" href="#">Template</a></h5>
-                            <ul class="footer-block__nav-list list-reset">
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Style Guide</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Instructions</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Licensing</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">Changelog</a></li>
-                                <li class="footer-block__nav-list-item"><a class="footer-block__nav-link" href="#">More Templates</a></li>
-                            </ul>
-                        </div>
+                    <div class="footer__nav">
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Shop</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">All products</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Fruit</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Custom</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Cute</a></li>
+                        </ul>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Learn</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Home</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Shop</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">About us</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Journal</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Contact</a></li>
+                        </ul>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Template</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Style Guide</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Instructions</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Licensing</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">Changelog</a></li>
+                            <li class="footer__nav-item"><a class="footer__nav-link" href="#">More Templates</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="footer-block__down-block flex">
-                    <p class="footer-block__copyright">© Pulstar powered by <span class="footer-block__copyright-author">Webflow</span></p>
-                    <button class="footer-block__btn btn-reset">Buy Template</button>
+                <div class="footer__row-copyright">
+                    <p class="footer__copyright">© Pulstar powered by <span class="footer__copyright-author">Webflow</span></p>
+                    <button class="footer__btn btn-reset">Buy Template</button>
                 </div>
             </div>
         </div>
