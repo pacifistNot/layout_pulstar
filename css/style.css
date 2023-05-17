@@ -261,19 +261,19 @@ body {
     line-height: 16px;
 }
 
-.about__item_img1 {
+.about__item-img1 {
     background-image: url("../img/about-card1.png");
     background-repeat: no-repeat;
     background-position: top center;
 }
 
-.about__item_img2 {
+.about__item-img2 {
     background-image: url("../img/about-card2.png");
     background-repeat: no-repeat;
     background-position: top center;
 }
 
-.about__item_img3 {
+.about__item-img3 {
     background-image: url("../img/about-card3.png");
     background-repeat: no-repeat;
     background-position: top center;
@@ -678,10 +678,6 @@ body {
 
 .journal__item-link:hover::before {
     background: rgba(0, 0, 0, 0.1);
-}
-
-.journal__item-link:hover {
-    color: #F14814;
 }
 
 .journal__item-title {
