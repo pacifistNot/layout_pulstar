@@ -467,13 +467,13 @@ template {
 .hero-content {
   display: flex;
 }
-.hero-content .hero__aside {
+.hero-content .hero__descr-box {
   margin-top: 80px;
   padding: 260px 78px 64px 64px;
   max-width: 512px;
   background-color: #3f3b3d;
 }
-.hero-content .hero__aside .hero__title {
+.hero-content .hero__descr-box .hero__title {
   margin: 0;
   margin-bottom: 28px;
   font-weight: 400;
@@ -481,7 +481,7 @@ template {
   line-height: 42px;
   color: #FFF;
 }
-.hero-content .hero__aside .hero__btn {
+.hero-content .hero__descr-box .hero__btn {
   margin-right: 34px;
   padding: 12px 26px;
   font-size: 16px;
@@ -493,16 +493,16 @@ template {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-.hero-content .hero__aside .hero__btn:hover {
+.hero-content .hero__descr-box .hero__btn:hover {
   background-color: #f5693f;
 }
-.hero-content .hero__aside .hero__link {
+.hero-content .hero__descr-box .hero__link {
   font-size: 16px;
   line-height: 21px;
   color: #FFF;
   transition: all 0.2s ease-in-out;
 }
-.hero-content .hero__aside .hero__link:hover {
+.hero-content .hero__descr-box .hero__link:hover {
   color: #F14814;
 }
 .hero-content .hero__slider {
