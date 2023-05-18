@@ -1,0 +1,134 @@
+.footer {
+	background-color: $purple;
+}
+
+.footer-content {
+	padding: 96px 0 32px 0;
+}
+
+.footer__title {
+	margin: 0;
+	margin-bottom: 32px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 29px;
+	line-height: 32px;
+	color: $white;
+}
+
+.footer__list {
+	display: flex;
+	margin-bottom: 64px;
+	.footer__item {
+		width: calc((100% - (32px)) / 4);
+		min-height: 296px;
+		&:not(:last-child) {
+			margin-right: 32px;
+		}
+	}
+	.footer__item-img1 {
+		background-image: url("../img/footer-card1.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.footer__item-img2 {
+		background-image: url("../img/footer-card2.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.footer__item-img3 {
+		background-image: url("../img/footer-card3.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.footer__item-img4 {
+		background-image: url("../img/footer-card4.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+.footer__row-nav {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 32px;
+
+}
+
+.footer__subscribe {
+	max-width: 512px;
+	.footer__subscrire-title {
+		margin: 0;
+		margin-bottom: 67px;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 32px;
+		color: $white;
+	}
+	.footer__subscribe-line {
+		height: 2px;
+		background-color: $white;
+	}
+}
+
+.footer__nav {
+	display: flex;
+	.footer__nav-list {
+		min-width: 197px;
+		color: $white;
+		&:not(:last-child) {
+			margin-right: 16px;
+		}
+		.footer__nav-item {
+			&:first-child {
+				margin-bottom: 15px;
+			}
+			&:not(:first-child) {
+				line-height: 25px;
+			}
+			.footer__nav-link {
+				transition: all 0.2s ease-in-out;
+				&:hover {
+					color: $orange-dark;
+				}
+			}
+		}
+	}
+}
+
+.footer__row-copyright {
+	display: flex;
+	padding: 20px 180px 0 0;
+	justify-content: space-between;
+	align-items: end;
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
+	.footer__copyright {
+		font-size: 16px;
+		line-height: 21px;
+		color: $white;
+		.footer__copyright-author {
+			margin-left: 12px;
+			font-size: 16px;
+			line-height: 21px;
+			color: $orange-dark;
+		}
+	}
+	.footer__btn {
+		padding: 12px 18px;
+		font-size: 16px;
+		line-height: 21px;
+		color: $white;
+		background-color: $orange-dark;
+		border: none;
+		border-radius: 3px;
+		cursor: pointer;
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			background-color: $orange-light;
+		}
+	}
+}
