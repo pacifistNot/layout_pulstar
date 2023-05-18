@@ -1,76 +1,76 @@
+@import "../common/reset.scss";
+@import "../common/fonts.scss";
+@import "../common/variables.scss";
+@import "../common/mixin.scss";
+
 .header {
 	padding: 30px 0;
-}
-
-.header-content {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.header__col-nav {
-	display: flex;
-	align-items: center;
-}
-
-.header__nav {
-	margin-right: 20px;
-	.header__nav-list {
+	&__content {
+		@include container();
 		display: flex;
-		.header__nav-item {
-			&:not(:last-child) {
-				margin-right: 40px;
-			}
-			.header__nav-link {
-				transition: all 0.2s ease-in-out;
-				&:hover {
-					color: $orange-dark;
-				}
-			}
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	&__col-nav {
+		display: flex;
+		align-items: center;
+	}
+	&__nav {
+		margin-right: 20px;
+	}
+	&__nav-list {
+		display: flex;
+	}
+	&__nav-item {
+		&:not(:last-child) {
+			margin-right: 40px;
 		}
 	}
-}
-
-.header__buy-btn {
-	margin-right: 12px;
-	padding: 14px 18px;
-	border: none;
-	border-radius: 3px;
-	background-color: $gray-light;
-	cursor: pointer;
-	transition: all 0.2s ease-in-out;
-	&:hover {
-		background-color: $gray;
-		color: $white;
+	&__nav-link {
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			color: $orange-dark;
+		}
 	}
-}
-
-.header__basket-btn {
-	position: relative;
-	padding: 12px;
-	padding-right: 30px;
-	border-radius: 3px;
-	transition: all 0.2s ease-in-out;
-	&:hover {
+	&__buy-btn {
+		margin-right: 12px;
+		padding: 14px 18px;
+		border: none;
+		border-radius: 3px;
 		background-color: $gray-light;
+		cursor: pointer;
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			background-color: $gray;
+			color: $white;
+		}
 	}
-}
-
-.header__basket-img {
-	margin-right: 10px;
-}
-
-.header__basket-number {
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	top: 30%;
-	right: 15%;
-	width: 18px;
-	height: 18px;
-	background-color: $purple;
-	color: $white;
-	font-size: 11px;
-	line-height: 18px;
-	border-radius: 50%;
+	&__basket-btn {
+		position: relative;
+		padding: 12px;
+		padding-right: 30px;
+		border-radius: 3px;
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			background-color: $gray-light;
+		}
+	}
+	&__basket-img {
+		margin-right: 10px;
+	}
+	&__basket-number {
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		top: 30%;
+		right: 15%;
+		width: 18px;
+		height: 18px;
+		background-color: $purple;
+		color: $white;
+		font-size: 11px;
+		line-height: 18px;
+		border-radius: 50%;
+	}
 }
